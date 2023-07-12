@@ -13,7 +13,8 @@ class SelectCard extends StatelessWidget {
     return Container(
       clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
-        color: Colors.brown,
+        color: Colors.white38,
+        border: Border.all(),
         borderRadius: BorderRadius.circular(45),
       ),
       child: Padding(
@@ -27,7 +28,7 @@ class SelectCard extends StatelessWidget {
                 Text(
                   line,
                   style: const TextStyle(
-                      color: Colors.white,
+                      color: Colors.black54,
                       fontSize: 12,
                       fontWeight: FontWeight.w300),
                 ),
